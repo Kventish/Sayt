@@ -1,0 +1,535 @@
+*,*::after ,*::before{
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.headertop{
+    display: flex;
+    justify-content: space-between;
+    height: 120px;
+    align-items: center;
+}
+
+.logo:hover{
+    opacity: 0.5;
+}
+
+.logo{
+    transition: opacity 0.5s;
+}
+
+nav ul{
+    display: flex;
+    width: 417px;
+    justify-content: space-between;
+    list-style: none;
+}
+
+nav ul a{
+    color: black;
+    text-decoration: none;
+}
+
+nav ul a:hover{
+    opacity: 0.5;
+}
+
+.phone{
+    width: 222px;
+    margin-top: 35px;
+}
+
+.phone a{
+    transform: translate(64px, -42px);
+    display: block;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 152%;
+    text-decoration: none;
+    color: black;
+}
+
+.phone span{
+    display: block;
+    transform: translate(64px, -46px);
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 150%;
+}
+
+.da{
+    background: orange;
+    padding-top: 110px;
+}
+
+.da h2{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 150%;
+    text-align: center;
+    width: 149px;
+    height: 37px;
+    margin: 0 auto;
+    background: #fff;
+    padding-top: 10px;
+}
+
+.da h1{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 60px;
+    padding-top: 24px;
+    width: 900px;
+    margin: 0 auto;
+}
+
+.da p{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 143%;
+    padding: 24px 0 100px 0;
+    width: 500px;
+    margin: 0 auto;
+}
+
+.ga h2{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 133%;
+    padding-top: 100px;
+    width: 700px;
+    margin: 0 auto;
+}
+
+.ga{
+    background: #8DD3B2;
+}
+
+.ulit{
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 0 100px 0;
+}
+
+.she{
+    background: #fff;
+    width: 380px;
+    height: 222px;
+}
+
+.she img{
+    padding: 42px 0 0 172px;
+}
+
+.she h3{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 143%;
+    padding-top: 20px;
+    margin: 0 auto;
+    padding-left: 80px;
+}
+
+.she p{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    padding-top: 10px;
+    width: 250px;
+    margin-left: 87px;
+}
+
+.people{
+background: #A94B9A;
+}
+
+.pepe{
+    display: flex;
+    justify-content: space-between;
+}
+
+.pepe h2{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 143%;
+    color: #5D6AFB;
+    padding-top: 100px ;
+}
+
+.pepe p{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 143%;
+    color: #2E363E;
+    padding-bottom: 100px;
+}
+
+.regis{
+    background: #5D6AFB;
+    padding: 100px 370px 100px 370px;
+}
+
+.elu{
+    background: #fff;
+    max-width: 1163px;
+}
+
+.her h2{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 133%;
+    padding: 70px 0 0 200px;
+}
+
+.her p{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 143%;
+    padding: 12px 0 0 250px;
+}
+
+.vhod{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 36px;
+    max-width: 1000px;
+}
+
+.lele{
+    background-color: #F2F6FA;
+    background-image: url(/img/2.png);
+    background-repeat: no-repeat;
+    border-radius: 8px;
+    border: none;
+    padding: 32px 90px 29px 58px;
+    background-position: 30px 30px;
+    margin-left: 150px;
+    margin-right: 20px;
+}
+
+.fefe{
+    background-color: #F2F6FA;
+    background-image: url(/img/1.png);
+    background-repeat: no-repeat;
+    border-radius: 8px;
+    border: none;
+    padding: 32px 90px 29px 58px;
+    background-position: 30px 30px;
+    margin-right: 20px;
+}
+
+.vhod button{
+    background: #5D6AFB;
+    border-radius: 8px;
+    color: #fff;
+    padding: 29px 64px 29px 64px;
+    border: none;
+    transition: opacity 0.5s;
+}
+
+.vhod button:hover{
+    opacity: 0.5;
+}
+
+.galo{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 130%;
+    padding: 26px 337px 71px 356px;
+}
+
+.lelead{
+    display: flex;
+    justify-content: space-around;
+    padding: 46px 0 22px 0;
+}
+
+.ll{
+    color: #fff;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 150%;
+    margin-right: 43px;
+    transition: opacity 0.5s;
+    text-decoration: none;
+}
+
+.vv{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 150%;
+    color: #FED84C;
+    margin-right: 43px;
+    transition: opacity 0.5s;
+    text-decoration: none;
+}
+
+.nn{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 150%;
+    color: #5D6AFB;
+    transition: opacity 0.5s;
+    text-decoration: none;
+}
+
+.pplo{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 150%;
+    color: #fff;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+footer {
+    background: #BEC0DA;
+}
+
+.ll:hover{
+    opacity: 0.5;
+}
+
+.nn:hover{
+    opacity: 0.5;
+}
+
+.vv:hover{
+    opacity: 0.5;
+}
+
+@media all and (min-width: 1024px) and (max-width: 1280px) { 
+    .regis{
+        padding: 50px 5px;
+    }  
+    .lele{
+        margin-left: 20px;
+    }
+    .galo{
+        padding: 26px 208px 71px 309px;
+    }
+}
+
+@media all and (min-width: 768px) and (max-width: 1024px) {
+    .logo img{
+        width: 50%;
+    }
+    nav ul{
+        width: 320px;
+    }
+    .da h1{
+        width: 677px;
+    }
+    .she{
+        width: 256px;
+    }
+    .she p {
+        width: 188px;
+    }
+    .regis{
+        padding: 50px 5px;
+    }  
+    .her h2{
+        padding: 48px 0 0 125px;
+    }
+    .her p{ 
+        padding: 12px 0 0 125px;
+    }
+    .lele{
+        margin-left: 15px;
+        padding: 32px 5px 29px 58px;
+    }
+    .fefe{
+        padding: 32px 9px 41px 58px;
+    }
+    .galo{
+        padding: 26px 13px 41px 167px;
+    }
+ }
+
+@media all and (min-width: 480px) and (max-width: 768px) {
+    .vhod{
+        display: block;
+    }
+    .regis{
+        padding: 13px 9px 38px 3px;
+    }
+    .her h2{
+        padding: 70px 0 0 70px;
+    }
+    .her p{
+        padding: 12px 0 0 77px;
+    }
+    .lele{
+        margin-left: 20px;
+    }
+    .fefe{
+        margin-left: 20px;
+    }
+    .vhod button{
+        margin-left: 20px;
+    }
+    .galo{
+        padding: 26px 143px 71px 30px;
+    }
+    .ll{
+        margin-right: 4px;
+    }
+    .vv{
+        margin-right: 4px;
+    }
+    .ga h2{
+        width: 427px;
+    }
+    .she img{
+        padding: 31px 0 0 42px;
+    }
+    .she h3{
+       padding-left: 10px;
+    }
+    .she p{
+        width: 70px;
+        margin-left: 20px;
+    }
+    .she{
+        height: 276px;
+    }
+    .da h1{
+        width: 496px;
+    }
+    .da p{
+        width: 474px;
+    }
+    .logo img{
+        width: 100px;
+    }
+    nav ul{
+        width: 240px;
+    }
+    .phone img{
+        width: 30px;
+    }
+    .phone a{
+        transform: translate(32px, -42px);
+    }
+    .phone span{
+        transform: translate(34px, -46px);
+        font-size: 8px;
+    }
+    nav ul a{
+        font-size: 10px;
+    }
+    
+ }
+
+@media all and (max-width: 480px) { 
+    .vhod{
+        display: block;
+    }
+    .regis{
+        padding: 13px 9px 38px 3px;
+    }
+    .her h2{
+        padding: 70px 0 0 70px;
+    }
+    .her p{
+        padding: 12px 0 0 77px;
+    }
+    .lele{
+        margin-left: 20px;
+    }
+    .fefe{
+        margin-left: 20px;
+    }
+    .vhod button{
+        margin-left: 20px;
+    }
+    .galo{
+        padding: 26px 143px 71px 30px;
+    }
+    .ll{
+        margin-right: 4px;
+    }
+    .vv{
+        margin-right: 4px;
+    }
+    .ga h2{
+        width: 427px;
+    }
+    .she img{
+        padding: 31px 0 0 42px;
+    }
+    .she h3{
+       padding-left: 10px;
+    }
+    .she p{
+        width: 70px;
+        margin-left: 20px;
+    }
+    .she{
+        height: 276px;
+    }
+    .da h1{
+        width: 496px;
+    }
+    .da p{
+        width: 474px;
+    }
+    .logo img{
+        width: 100px;
+    }
+    nav ul{
+        width: 240px;
+    }
+    .phone img{
+        width: 30px;
+    }
+    .phone a{
+        transform: translate(32px, -42px);
+    }
+    .phone span{
+        transform: translate(34px, -46px);
+        font-size: 8px;
+    }
+    nav ul a{
+        font-size: 10px;
+    }
+}
